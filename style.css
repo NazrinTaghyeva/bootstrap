@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url(images/concrete_seamless.png);
+    overflow-x: hidden;
+}
+#logo{
+    background-color: #4aaaa5;
+    padding: 20px;
+    font-size: 28px;
+    font-weight:bold;
+}
+.nav-link{
+    font-size: 20px;
+}
+.nav-link::after{
+content: "|";
+color: rgb(168, 166, 166);
+margin-left: 10px;
+}
+main{
+    padding-top: 130px;
+}
+.img-p{
+    margin-top:30px ;
+}
+h2{
+    padding:20px;
+    color: #4aaaa5;
+}
+#cat{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+.divider{
+    border-bottom: 3px solid rgb(180, 178, 178);
+}
+.p1,
+.p2{
+    color: rgb(189, 189, 189);
+    font-size: 18px;
+   font-family:  Georgia, Times, 'Times New Roman', serif;
+    line-height: 35px;
+}
+#cnct{
+    height: 50vh;
+}
+.img{
+    margin-top: 30px;
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+}
+footer{
+    margin-top: 80px;
+    border-top: 3px solid #4aaaa5;
+}
+#foot-col{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: gray;
+}
+
+form{
+    margin-top: 20px;
+}
+#textarea{
+    width: 100%;
+    height:180px;
+}
+label{
+    color: rgb(173, 173, 173);
+    font-size: 20px;
+}
+#portfolio{
+    height: 80vh;
+}
